@@ -32,17 +32,30 @@ body {
 .layout_wrapper {
   height: 100vh;
   flex-direction: column;
+  overflow: scroll;
 }
 
-@media (mini-width: 768px) {
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1000px) {
   .layout_wrapper {
-    width: 768px;
+    width: 100vw;
+  }
+
+  .product_showcase .product_img {
+    height: 100vw;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1000px) {
   .layout_wrapper {
-    width: 100vw;
+    width: 375px;
+  }
+
+  .product_showcase .product_img {
+    height: 375px;
   }
 }
 
@@ -70,7 +83,6 @@ main {
 }
 
 .product_showcase .product_img {
-  height: 375px;
   width: 100%;
   justify-content: center;
   align-items: center;
