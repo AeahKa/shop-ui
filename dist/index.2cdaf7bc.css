@@ -1,3 +1,8 @@
+@font-face {
+  font-family: DINPro;
+  src: url("FontsFree-Net-DINPro-1.fe4cfc87.ttf");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,7 +32,6 @@ body {
 .layout_wrapper {
   width: 500px;
   height: 100vh;
-  border: 1px solid #000;
   flex-direction: column;
 }
 
@@ -47,7 +51,98 @@ main {
   border: 1px solid red;
 }
 
-.buttom {
+.product_showcase {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.product_showcase .product_img {
+  height: 375px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.product_showcase img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.product_showcase .play_button {
+  z-index: 1;
+  height: 60px;
+  width: 60px;
+  background-color: #0000;
+  border: none;
+  position: absolute;
+}
+
+.product_showcase .preview_box {
+  z-index: 1;
+  height: 48px;
+  background-color: #99999980;
+  border-radius: 27px;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.product_showcase .preview_box .serial_number {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: left;
+  margin: 0 16px;
+  font-family: DINPro;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.product_showcase .preview_box .serial_number .separate {
+  margin: 0 2px;
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.product_showcase .preview_box .preview_img {
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  display: flex;
+}
+
+.product_showcase .preview_box .preview_img div {
+  width: 32px;
+  height: 32px;
+  background-color: #f1f2f4;
+  border: none;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  display: flex;
+}
+
+.product_showcase .preview_box .preview_img div .play_button {
+  width: 20px;
+}
+
+.product_showcase .preview_box .preview_img button {
+  width: 20px;
+  height: 20px;
+  background-color: #0000;
+  border: none;
+  margin-left: -2px;
+}
+
+.bottom {
   height: 30px;
   border: 1px solid #00f;
 }
