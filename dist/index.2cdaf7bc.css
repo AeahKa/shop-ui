@@ -447,6 +447,21 @@
   transform: translateY(-3px);
 }
 
+.product_detail {
+  flex-direction: column;
+  display: flex;
+}
+
+.product_detail span {
+  letter-spacing: 0;
+  text-align: left;
+  margin: 16px;
+  font-family: PingFang SC;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
