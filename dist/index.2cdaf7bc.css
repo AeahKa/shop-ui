@@ -269,10 +269,17 @@
 
 .product_price .block {
   padding: 12pxf;
+  letter-spacing: 0;
+  text-align: left;
+  color: #666;
   background-color: #eee;
   justify-content: space-between;
   align-items: center;
   margin: 0;
+  font-family: PingFang SC;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
   display: flex;
   position: relative;
 }
