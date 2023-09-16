@@ -12,6 +12,15 @@
   line-height: 25px;
 }
 
+.level3 {
+  letter-spacing: 0;
+  text-align: left;
+  font-family: PingFang SC;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
 .level4 {
   letter-spacing: 0;
   text-align: left;
@@ -210,6 +219,82 @@
   right: 0;
 }
 
+.product_price .amount {
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.product_price .amount span {
+  letter-spacing: 0;
+  text-align: center;
+  font-family: PingFang SC;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.product_price .amount .tag {
+  margin-left: 10px;
+}
+
+.product_price .amount .adjust {
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.product_price .price {
+  letter-spacing: 0;
+  text-align: left;
+  color: #e34242;
+  margin: 8px 0;
+  font-family: DINPro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.yuan {
+  letter-spacing: 0;
+  text-align: left;
+  font-family: DINPro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.product_price .block {
+  padding: 12pxf;
+  background-color: #eee;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  display: flex;
+  position: relative;
+}
+
+.product_price .block li {
+  min-width: auto;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.product_price .block li img {
+  position: absolute;
+  right: 12px;
+}
+
+.product_price ol li .line {
+  width: auto;
+  border: .5px solid #eee;
+  margin: 16px 0;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -284,11 +369,17 @@ body {
   max-height: 23.6px;
   color: #666;
   white-space: nowrap;
+  letter-spacing: 0;
+  text-align: center;
   background-color: #fff;
   border: .5px solid;
   border-radius: 4px;
   margin-right: 6px;
   padding: 2px 6px 3px;
+  font-family: PingFang SC;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
 }
 
 .bottom {

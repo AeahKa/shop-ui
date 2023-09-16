@@ -2,7 +2,7 @@
 @import url('./assets/style/showcase.css');
 @import url('./assets/style/info.css');
 @import url('./assets/style/address.css');
-
+@import url('./assets/style/price.css');
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -72,6 +72,12 @@ body {
 	color: #666666;
 	background-color: #ffffff;
 	white-space: nowrap;
+	font-family: PingFang SC;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0px;
+	text-align: center;
 }
 
 .bottom {
