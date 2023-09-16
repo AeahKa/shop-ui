@@ -4,6 +4,7 @@
 @import url('./assets/style/address.css');
 @import url('./assets/style/price.css');
 @import url('./assets/style/ranking.css');
+@import url('./assets/style/more.css');
 * {
 	box-sizing: border-box;
 	margin: 0;

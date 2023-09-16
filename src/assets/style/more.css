@@ -1,0 +1,123 @@
+.more_products {
+}
+.more_products .options {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.more_products .options li {
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.more_products .options .line {
+	width: 20px;
+	height: 4px;
+	border-radius: 3px;
+	background: #f87036;
+	margin-top: 28px;
+	position: absolute;
+}
+
+.more_products .gallery {
+	overflow: scroll;
+}
+.more_products .gallery ol {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.more_products .gallery ol li {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	height: 250px;
+	width: 142px;
+	margin-right: 10px;
+}
+
+.more_products .gallery .img {
+	width: 142px;
+	border-radius: 6px;
+	border: none;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 6px;
+}
+.more_products .gallery .img img {
+	width: 110%;
+}
+.more_products .gallery .img .tag {
+	position: absolute;
+	bottom: 8px;
+	right: 0;
+	font-family: PingFang SC;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: center;
+	margin: 0 4px;
+	color: #ffffff;
+}
+.more_products .gallery .product_name {
+	white-space: wrap;
+	font-family: PingFang SC;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0px;
+	text-align: left;
+	height: 40px;
+	overflow: hidden;
+	margin-bottom: 6px;
+}
+.more_products .gallery .tags {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	overflow: hidden;
+	margin-bottom: 16px;
+}
+.more_products .gallery .tags .tag {
+	font-family: PingFang SC;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 10px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #e93e28;
+	padding: 1.5px 4px 2.5px 4px;
+	border-radius: 3px;
+	border: 0.5px solid;
+}
+.more_products .gallery .price {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #e93e28;
+
+	font-family: DINPro;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.more_products .gallery .price .unit {
+	font-family: PingFang SC;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #999999;
+}
+
+.more_products .gallery .price img {
+	transform: translateY(-3px);
+}
