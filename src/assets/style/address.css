@@ -1,0 +1,26 @@
+.shipping_address ol li {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 16px;
+}
+.shipping_address ol li .item {
+	margin-right: 20px;
+}
+.shipping_address ol li .detail {
+	display: flex;
+	flex-wrap: wrap;
+}
+.shipping_address ol li .detail .pack {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.shipping_address ol li img {
+	position: absolute;
+	right: 0;
+	margin: 5px 7px;
+}

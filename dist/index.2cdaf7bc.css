@@ -24,6 +24,7 @@
 .level5 {
   letter-spacing: 0;
   text-align: center;
+  color: #333;
   font-family: PingFang SC;
   font-size: 12px;
   font-weight: 400;
@@ -179,6 +180,36 @@
   color: #999;
 }
 
+.shipping_address ol li {
+  flex-direction: row;
+  margin-bottom: 16px;
+  display: flex;
+  position: relative;
+}
+
+.shipping_address ol li .item {
+  margin-right: 20px;
+}
+
+.shipping_address ol li .detail {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shipping_address ol li .detail .pack {
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  display: flex;
+  position: relative;
+}
+
+.shipping_address ol li img {
+  margin: 5px 7px;
+  position: absolute;
+  right: 0;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -244,10 +275,15 @@ body {
   background-color: #fff;
   border-radius: 10px;
   margin: 0 12px 10px;
+  padding: 16px 12px;
 }
 
 .tag {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  max-height: 23.6px;
   color: #666;
+  white-space: nowrap;
   background-color: #fff;
   border: .5px solid;
   border-radius: 4px;
