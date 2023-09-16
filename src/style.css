@@ -7,6 +7,7 @@
 @import url('./assets/style/more.css');
 @import url('./assets/style/detail.css');
 @import url('./assets/style/faq.css');
+@import url('./assets/style/bottom.css');
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -57,8 +58,9 @@ body {
 }
 
 .content {
-	overflow: auto;
+	overflow: scroll;
 	flex-grow: 1;
+	margin-bottom: 60px;
 }
 .block {
 	border-radius: 10px;
@@ -82,9 +84,4 @@ body {
 	line-height: 17px;
 	letter-spacing: 0px;
 	text-align: center;
-}
-
-.bottom {
-	height: 30px;
-	border: 1px solid blue;
 }

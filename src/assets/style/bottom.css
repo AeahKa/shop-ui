@@ -1,0 +1,75 @@
+.bottom {
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #ffffff;
+}
+
+.bottom .top {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	background-color: #ffffff;
+	border: #dcdcdc solid 1px;
+	border-radius: 100%;
+	transform: translateY(-124px);
+	right: 0;
+	margin-right: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: PingFang SC;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 14px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #000000;
+}
+
+.bottom .nav {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	position: relative;
+}
+.bottom .nav button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border: none;
+	background-color: #ffffff;
+	margin: 0 12px;
+	font-family: PingFang SC;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0px;
+	text-align: center;
+	color: #666666;
+}
+.bottom .nav .add {
+	position: absolute;
+	height: 40px;
+	width: 191px;
+	font-family: PingFang SC;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: center;
+	color: #ffffff;
+	margin: 0 16px 0 12px;
+	right: 0;
+	border-radius: 20px;
+	background: rgb(253, 175, 23);
+	background: linear-gradient(
+		90deg,
+		rgba(253, 175, 23, 1) 0%,
+		rgba(251, 86, 28, 1) 100%
+	);
+}
