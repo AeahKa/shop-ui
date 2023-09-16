@@ -1,0 +1,87 @@
+.product_showcase {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-bottom: 10px;
+}
+.product_showcase .product_img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.product_showcase .product_img img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.product_showcase .play_button {
+	position: absolute;
+	z-index: 1;
+	height: 60px;
+	width: 60px;
+	background-color: transparent;
+	border: none;
+}
+.product_showcase .preview_box {
+	position: absolute;
+	z-index: 1;
+	height: 48px;
+	bottom: 0;
+	left: 0;
+	margin: 12px;
+	background-color: #99999980;
+	border-radius: 27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.product_showcase .preview_box .serial_number {
+	margin: 0 16px 0 16px;
+	font-family: 'DINPro';
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+.product_showcase .preview_box .serial_number .separate {
+	font-size: 10px;
+	line-height: 13px;
+	margin: 0 2px 0 2px;
+}
+.product_showcase .preview_box .preview_img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 12px;
+}
+.product_showcase .preview_box .preview_img div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+	border: none;
+	background-color: #f1f2f4;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.product_showcase .preview_box .preview_img .selected {
+	width: 34px;
+	height: 34px;
+}
+.product_showcase .preview_box .preview_img div .play_button {
+	width: 20px;
+}
+.product_showcase .preview_box .preview_img button {
+	width: 20px;
+	height: 20px;
+	margin-left: -2px;
+	border: none;
+	background-color: transparent;
+}
