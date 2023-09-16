@@ -10,12 +10,7 @@
 	justify-content: left;
 	align-items: center;
 }
-.product_info .tags .tag {
-	border: 1px solid;
-	border-radius: 4px;
-	margin-right: 6px;
-	padding: 2px 6px 3px 6px;
-}
+
 .product_info .introduction {
 	color: #999999;
 	margin-bottom: 8px;
