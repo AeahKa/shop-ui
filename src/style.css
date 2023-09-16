@@ -3,6 +3,7 @@
 @import url('./assets/style/info.css');
 @import url('./assets/style/address.css');
 @import url('./assets/style/price.css');
+@import url('./assets/style/ranking.css');
 * {
 	box-sizing: border-box;
 	margin: 0;

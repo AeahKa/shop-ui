@@ -295,6 +295,19 @@
   margin: 16px 0;
 }
 
+.ranking {
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.ranking .line {
+  height: 12px;
+  border: .5px solid #eee;
+  margin: 0 10px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

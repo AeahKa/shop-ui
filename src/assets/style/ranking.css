@@ -1,0 +1,11 @@
+.ranking {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	position: relative;
+}
+.ranking .line {
+	height: 12px;
+	border: 0.5px solid #eeeeee;
+	margin: 0 10px;
+}
