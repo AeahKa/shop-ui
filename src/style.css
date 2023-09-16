@@ -8,6 +8,7 @@
 @import url('./assets/style/detail.css');
 @import url('./assets/style/faq.css');
 @import url('./assets/style/bottom.css');
+@import url('./assets/style/top-bar.css');
 * {
 	box-sizing: border-box;
 	margin: 0;

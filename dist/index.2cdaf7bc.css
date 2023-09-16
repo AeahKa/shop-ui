@@ -625,6 +625,32 @@
   right: 0;
 }
 
+.top_bar {
+  z-index: 1;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #9999998e;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 10px;
+  left: 12px;
+}
+
+.top_bar .line {
+  width: 2px;
+  height: 16px;
+  opacity: .5px;
+  background-color: #fff;
+  border-radius: 1px;
+}
+
+.top_bar img {
+  margin: 8px 12px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
