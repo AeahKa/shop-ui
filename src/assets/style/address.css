@@ -6,8 +6,15 @@
 }
 .shipping_address ol li .item {
 	margin-right: 20px;
+	color: #999999;
 }
 .shipping_address ol li .detail {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.shipping_address ol li .detail .tags {
 	display: flex;
 	flex-wrap: wrap;
 }

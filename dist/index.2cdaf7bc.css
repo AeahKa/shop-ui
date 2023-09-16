@@ -8,7 +8,7 @@
   text-align: left;
   font-family: PingFang SC;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 550;
   line-height: 25px;
 }
 
@@ -197,10 +197,17 @@
 }
 
 .shipping_address ol li .item {
+  color: #999;
   margin-right: 20px;
 }
 
 .shipping_address ol li .detail {
+  flex-flow: column wrap;
+  align-items: flex-start;
+  display: flex;
+}
+
+.shipping_address ol li .detail .tags {
   flex-wrap: wrap;
   display: flex;
 }
@@ -231,7 +238,7 @@
   text-align: center;
   font-family: PingFang SC;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 550;
   line-height: 22px;
 }
 
@@ -394,7 +401,7 @@
   margin-bottom: 6px;
   font-family: PingFang SC;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 550;
   line-height: 20px;
   overflow: hidden;
 }
@@ -458,7 +465,7 @@
   margin: 16px;
   font-family: PingFang SC;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 550;
   line-height: 22px;
 }
 
@@ -472,7 +479,7 @@
   text-align: left;
   font-family: PingFang SC;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 550;
   line-height: 22px;
 }
 
