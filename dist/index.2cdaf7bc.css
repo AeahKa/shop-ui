@@ -65,14 +65,20 @@
   z-index: 1;
   height: 60px;
   width: 60px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   background-color: #0000;
   border: none;
+  border-radius: 100%;
   position: absolute;
+  overflow: hidden;
 }
 
 .product_showcase .preview_box {
   z-index: 1;
   height: 48px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   background-color: #99999980;
   border-radius: 27px;
   justify-content: center;

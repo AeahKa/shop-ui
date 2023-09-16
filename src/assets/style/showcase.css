@@ -24,6 +24,9 @@
 	width: 60px;
 	background-color: transparent;
 	border: none;
+	border-radius: 100%;
+	backdrop-filter: blur(10px);
+	overflow: hidden;
 }
 .product_showcase .preview_box {
 	position: absolute;
@@ -37,6 +40,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	backdrop-filter: blur(10px);
 }
 .product_showcase .preview_box .serial_number {
 	margin: 0 16px 0 16px;
