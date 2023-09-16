@@ -627,16 +627,23 @@
 
 .top_bar {
   z-index: 1;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.top_bar .buttons {
+  width: -moz-fit-content;
+  width: fit-content;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background-color: #9999998e;
   border-radius: 16px;
   justify-content: center;
   align-items: center;
+  margin: 10px 12px;
   display: flex;
-  position: fixed;
-  top: 10px;
-  left: 12px;
 }
 
 .top_bar .line {
@@ -704,6 +711,10 @@ body {
 
   .product_showcase .product_img {
     height: 375px;
+  }
+
+  .bottom, .top_bar {
+    width: 375px;
   }
 }
 

@@ -56,6 +56,12 @@ body {
 	.product_showcase .product_img {
 		height: 375px;
 	}
+	.bottom {
+		width: 375px;
+	}
+	.top_bar {
+		width: 375px;
+	}
 }
 
 .content {
