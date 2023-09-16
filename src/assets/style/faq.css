@@ -1,0 +1,65 @@
+.faq {
+	display: flex;
+	flex-direction: column;
+}
+.faq .title {
+	font-family: PingFang SC;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.faq .line {
+	border: 0.5px solid #eeeeee;
+	margin: 16px 0 16px 0;
+	width: auto;
+}
+.faq li {
+	margin-bottom: 20px;
+}
+.faq .q {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	margin-bottom: 14px;
+}
+.faq .q img {
+	margin: 3px;
+	width: 14px;
+}
+.faq .q span {
+	font-family: PingFang SC;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+.faq .a {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+.faq .a span {
+	margin-bottom: 10px;
+	font-family: PingFang SC;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #999999;
+}
+.faq .a div {
+	display: flex;
+	flex-direction: column;
+}
+.faq .a .tag {
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+.faq .a span .hight_light {
+	color: #666666;
+	font-weight: 600;
+}
